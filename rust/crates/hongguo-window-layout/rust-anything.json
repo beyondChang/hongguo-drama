@@ -1,0 +1,66 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "D:\\system\\desktop\\ai\\hongguo-drama",
+  "unit": "src/native/_wrapper-window-layout.js",
+  "language": "ts",
+  "kind": "napi",
+  "crate_name": "hongguo-window-layout",
+  "exports": [
+    {
+      "name": "fitWindowBounds",
+      "file": "src/native/_wrapper-window-layout.js",
+      "line": 3,
+      "params": [
+        {
+          "name": "mode",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        },
+        {
+          "name": "current",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        },
+        {
+          "name": "workArea",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        },
+        {
+          "name": "previous",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    },
+    {
+      "name": "getWindowScale",
+      "file": "src/native/_wrapper-window-layout.js",
+      "line": 6,
+      "params": [
+        {
+          "name": "value",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

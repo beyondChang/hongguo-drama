@@ -1,0 +1,13 @@
+{"fn":"buildEncoderArgs","args":["h264_videotoolbox"],"ok":["-c:v","h264_videotoolbox","-allow_sw","0","-realtime","0","-q:v","68","-profile:v","high","-pix_fmt","yuv420p","-threads:v","2"]}
+{"fn":"buildEncoderArgs","args":["h264_nvenc"],"ok":["-c:v","h264_nvenc","-preset","p4","-rc","vbr","-cq","21","-b:v","0","-pix_fmt","yuv420p","-threads:v","2"]}
+{"fn":"buildEncoderArgs","args":["h264_amf"],"ok":["-c:v","h264_amf","-quality","speed","-rc","cqp","-qp_i","26","-qp_p","26","-pix_fmt","yuv420p","-threads:v","2"]}
+{"fn":"buildEncoderArgs","args":["h264_qsv"],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":["libx264"],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":[""],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":[null],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":[null],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":[42],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":[true],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":[{}],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":[[]],"error":"不支持的硬件编码器"}
+{"fn":"buildEncoderArgs","args":["H264_NVENC"],"error":"不支持的硬件编码器"}

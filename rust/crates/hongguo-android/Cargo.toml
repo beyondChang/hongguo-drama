@@ -1,0 +1,17 @@
+[package]
+name = "hongguo-android"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97"
+publish = false
+description = "Rust cdylib for the Android/TV WebView shell, exposed through JNI (ADR-011)"
+
+[lib]
+name = "hongguo_android"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+serde_json = { version = "1", features = ["preserve_order", "float_roundtrip", "unbounded_depth"] }
+hongguo-app-update = { path = "../hongguo-app-update" }
+hongguo-window-layout = { path = "../hongguo-window-layout" }
+hongguo-js = { path = "../hongguo-js" }

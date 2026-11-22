@@ -1,0 +1,494 @@
+{"fn":"resolveLanguage","args":[0,0],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],null],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,null],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},null],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":["x",null],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],true],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],"x"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},"x"],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},true],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,"x"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},0],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,true],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],true],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],{}],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":["x",[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],{}],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,true],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,{}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},true],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},{}],"ok":"en"}
+{"fn":"resolveLanguage","args":["x",{}],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,null],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},true],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},{}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},0],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,{}],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":["x",0],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},null],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,0],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],0],"ok":"en"}
+{"fn":"resolveLanguage","args":["x",true],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},"x"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,"x"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,null],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},{}],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,0],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,{}],"ok":"en"}
+{"fn":"resolveLanguage","args":[["a",1],null],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,true],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":["x","x"],"ok":"en"}
+{"fn":"resolveLanguage","args":["x",["a",1]],"ok":"en"}
+{"fn":"resolveLanguage","args":["x",{"a":{"b":"c"}}],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},"x"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{},null],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,"x"],"ok":"en"}
+{"fn":"resolveLanguage","args":["x",{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],0],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},[]],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":"b"},0],"ok":"en"}
+{"fn":"resolveLanguage","args":[[],"x"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":{"b":"c"}},{"a":"b"}],"ok":"en"}
+{"fn":"resolveLanguage","args":["x","X"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"2":4,"10":3,"zebra":1,"apple":2,"é":5,"Apple":6},0],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"n":9007199254740992,"f":1e+21,"t":0.1,"neg":-7},0],"ok":"en"}
+{"fn":"resolveLanguage","args":[[3,1,2],0],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,{"2":4,"10":3,"zebra":1,"apple":2,"é":5,"Apple":6}],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,{"n":9007199254740992,"f":1e+21,"t":0.1,"neg":-7}],"ok":"en"}
+{"fn":"resolveLanguage","args":[0,[3,1,2]],"ok":"en"}
+{"fn":"systemLocale","args":[0,"key_name-1",{"$undefined":true}],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[{"$undefined":true},"tab\tseparated","p"],"ok":"tab\tseparated"}
+{"fn":"systemLocale","args":[{"a":"b"},{"$undefined":true},"İstanbul"],"ok":""}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"a😀b😀c",{"$undefined":true}],"ok":"a😀b😀c"}
+{"fn":"systemLocale","args":[{"a":"b"},"a.b.c"],"ok":"a.b.c"}
+{"fn":"systemLocale","args":[0,{"$undefined":true},"straße"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"emoji 👍🏽 mix"],"ok":""}
+{"fn":"systemLocale","args":[{"a":"b"}],"ok":""}
+{"fn":"systemLocale","args":[[],"Hello World","r"],"ok":"Hello World"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},{"$undefined":true},{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[{},"src/a/b.tsa😀b😀c","é"],"ok":"src/a/b.tsa😀b😀c"}
+{"fn":"systemLocale","args":[{"a":"b"},"./x/**/*.json","hello world"],"ok":"./x/**/*.json"}
+{"fn":"systemLocale","args":[{"a":"b"},"e} ","{name} has {count} items"],"ok":"e} "}
+{"fn":"systemLocale","args":[0,{"$undefined":true},"line1\nline2"],"ok":""}
+{"fn":"systemLocale","args":[{},"tab\tseparated",{"$undefined":true}],"ok":"tab\tseparated"}
+{"fn":"systemLocale","args":[[],"a","line1\nline2"],"ok":"a"}
+{"fn":"systemLocale","args":[{"a":"b"},"straßeline1\nline2","straße"],"ok":"straßeline1\nline2"}
+{"fn":"systemLocale","args":[{},"Hello World","Hello World"],"ok":"Hello World"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},{"$undefined":true},"Hello World"],"ok":""}
+{"fn":"systemLocale","args":[true,"a",{"$undefined":true}],"ok":"a"}
+{"fn":"systemLocale","args":["ine","a..b","line1\nline2"],"ok":"a..b"}
+{"fn":"systemLocale","args":[true,"😀",""],"ok":"😀"}
+{"fn":"systemLocale","args":[[],"tab\tseparated","a😀b😀c"],"ok":"tab\tseparated"}
+{"fn":"systemLocale","args":[["a",1],"","a"],"ok":""}
+{"fn":"systemLocale","args":["x",{"$undefined":true},{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[{},"a..bkey_name-1","日本語のテキスト"],"ok":"a..bkey_name-1"}
+{"fn":"systemLocale","args":[{"a":"b"},"İstanbul",{"$undefined":true}],"ok":"İstanbul"}
+{"fn":"systemLocale","args":["x",{"$undefined":true},"ünïcödé"],"ok":""}
+{"fn":"systemLocale","args":[{},"😀",{"$undefined":true}],"ok":"😀"}
+{"fn":"systemLocale","args":[null,":",":"],"ok":":"}
+{"fn":"systemLocale","args":[{"$undefined":true},"line1\nline2","2"],"ok":"line1\nline2"}
+{"fn":"systemLocale","args":[true,"a😀b😀c","{name} has {count} items"],"ok":"a😀b😀c"}
+{"fn":"systemLocale","args":[true,"abcemoji 👍🏽 mix",{"$undefined":true}],"ok":"abcemoji 👍🏽 mix"}
+{"fn":"systemLocale","args":[true,{"$undefined":true},"hello world"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},"ns:key.path","abc"],"ok":"ns:key.path"}
+{"fn":"systemLocale","args":["x","ünïcödé","src/a/b.ts"],"ok":"ünïcödé"}
+{"fn":"systemLocale","args":[["a",1],"😀"],"ok":"😀"}
+{"fn":"systemLocale","args":[[],"😀"],"ok":"😀"}
+{"fn":"systemLocale","args":[[],"﻿bom","hello world"],"ok":"﻿bom"}
+{"fn":"systemLocale","args":[{},"hello world","a😀b😀c"],"ok":"hello world"}
+{"fn":"systemLocale","args":[true,{"$undefined":true},{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[null,"a😀b😀c","a.b.ctab\tseparated"],"ok":"a😀b😀c"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"tab\tseparated","ns:key.patha..b"],"ok":"tab\tseparated"}
+{"fn":"systemLocale","args":[null,"a..b","hello world"],"ok":"a..b"}
+{"fn":"systemLocale","args":[true,"tab\tseparatedab","a.b.c"],"ok":"tab\tseparatedab"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"{name} has {count} items","é"],"ok":"{name} has {count} items"}
+{"fn":"systemLocale","args":[["a",1],{"$undefined":true},"İstanbul"],"ok":""}
+{"fn":"systemLocale","args":[{},{"$undefined":true},"a"],"ok":""}
+{"fn":"systemLocale","args":[["a",1],"src/a/b.ts","İstanbul"],"ok":"src/a/b.ts"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"a",{"$undefined":true}],"ok":"a"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"line1\nline2","hello"],"ok":"line1\nline2"}
+{"fn":"systemLocale","args":[null,{"$undefined":true},{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[true,".leading",""],"ok":".leading"}
+{"fn":"systemLocale","args":[{"$undefined":true},"İstanbul日本語のテキスト"],"ok":"İstanbul日本語のテキスト"}
+{"fn":"systemLocale","args":[{"$undefined":true},"ΣΊΣΥΦΟΣ","line1\nline2"],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"systemLocale","args":[null,"😀straße","ns:key.path"],"ok":"😀straße"}
+{"fn":"systemLocale","args":[0,"aé",{"$undefined":true}],"ok":"aé"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"a"],"ok":""}
+{"fn":"systemLocale","args":[[],"Hello World","W"],"ok":"Hello World"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"emoji 👍🏽 mix",{"$undefined":true}],"ok":"emoji 👍🏽 mix"}
+{"fn":"systemLocale","args":[0,{"$undefined":true},"ΣΊΣΥΦΟΣHELLO"],"ok":""}
+{"fn":"systemLocale","args":[["a",1],"😀","{name} has {count} items"],"ok":"😀"}
+{"fn":"systemLocale","args":[{},"a😀b😀c","a"],"ok":"a😀b😀c"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"tab\tseparated","ab\ts"],"ok":"tab\tseparated"}
+{"fn":"systemLocale","args":[[],{"$undefined":true},"ns:key.path"],"ok":""}
+{"fn":"systemLocale","args":[null,"line1\nline2","tab\tseparated"],"ok":"line1\nline2"}
+{"fn":"systemLocale","args":[[],"1","key_name-1"],"ok":"1"}
+{"fn":"systemLocale","args":[null,{"$undefined":true},"ab"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},":"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},"abc","a😀b😀c"],"ok":"abc"}
+{"fn":"systemLocale","args":[{},"ünïcödé"],"ok":"ünïcödé"}
+{"fn":"systemLocale","args":[{"$undefined":true},"ünïcödé","key_name-1"],"ok":"ünïcödé"}
+{"fn":"systemLocale","args":[{"$undefined":true},"c","a.b.c"],"ok":"c"}
+{"fn":"systemLocale","args":[{"$undefined":true},"hello world",{"$undefined":true}],"ok":"hello world"}
+{"fn":"systemLocale","args":[{"$undefined":true},"ab"],"ok":"ab"}
+{"fn":"systemLocale","args":[["a",1],"Hello World",":"],"ok":"Hello World"}
+{"fn":"systemLocale","args":["x","straße"],"ok":"straße"}
+{"fn":"systemLocale","args":[{"a":"b"},"a","A"],"ok":"a"}
+{"fn":"systemLocale","args":[{"$undefined":true},""],"ok":""}
+{"fn":"systemLocale","args":[["a",1],"src/a/b.ts","ab"],"ok":"src/a/b.ts"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"hello world"],"ok":""}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"a:b:c","{name} has {count} items"],"ok":"a:b:c"}
+{"fn":"systemLocale","args":[0,"L","hello world"],"ok":"L"}
+{"fn":"systemLocale","args":[null,"EL","ns:key.pathHELLO"],"ok":"EL"}
+{"fn":"systemLocale","args":[["a",1],"a","ΣΊΣΥΦΟΣ"],"ok":"a"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"hello"],"ok":""}
+{"fn":"systemLocale","args":[["a",1],"{name} has {count} items",{"$undefined":true}],"ok":"{name} has {count} items"}
+{"fn":"systemLocale","args":[0,"ns:key.path","./x/**/*.json./x/**/*.json"],"ok":"ns:key.path"}
+{"fn":"systemLocale","args":[true,"ï","ünïcödé"],"ok":"ï"}
+{"fn":"systemLocale","args":[{"$undefined":true},"ΣΊΣΥΦΟΣ"],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"systemLocale","args":[null,"a..b","é"],"ok":"a..b"}
+{"fn":"systemLocale","args":["x","ΣΊΣΥΦΟΣ",{"$undefined":true}],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"systemLocale","args":[{"$undefined":true},"E-","key_name-1"],"ok":"E-"}
+{"fn":"systemLocale","args":["x",".leading",""],"ok":".leading"}
+{"fn":"systemLocale","args":[["a",1],{"$undefined":true},{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},"hello worldİstanbul",""],"ok":"hello worldİstanbul"}
+{"fn":"systemLocale","args":[{},"日本語のテキスト",""],"ok":"日本語のテキスト"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"Hello World"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"a.b.c{name} has {count} items"],"ok":""}
+{"fn":"systemLocale","args":[true,{"$undefined":true},"a:b:c"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"trailing."],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},"./x/**/*.json"],"ok":"./x/**/*.json"}
+{"fn":"systemLocale","args":[{"$undefined":true},"a:b:c","ΣΊΣΥΦΟΣ"],"ok":"a:b:c"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"line1\nline2"],"ok":""}
+{"fn":"systemLocale","args":[[],"Hello World","a:b:c"],"ok":"Hello World"}
+{"fn":"systemLocale","args":["x",{"$undefined":true},"x"],"ok":""}
+{"fn":"systemLocale","args":[true,"STRASS","straße"],"ok":"STRASS"}
+{"fn":"systemLocale","args":[["a",1],"HELLO",{"$undefined":true}],"ok":"HELLO"}
+{"fn":"systemLocale","args":[{"a":"b"},{"$undefined":true},"a.b.c"],"ok":""}
+{"fn":"systemLocale","args":[["a",1],{"$undefined":true},"ΣΊΣΥΦΟΣ"],"ok":""}
+{"fn":"systemLocale","args":[null,"trailing."],"ok":"trailing."}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"abc",{"$undefined":true}],"ok":"abc"}
+{"fn":"systemLocale","args":[true,{"$undefined":true},"src/a/b.tsa😀b😀c"],"ok":""}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"line1\nline2","hello world"],"ok":"line1\nline2"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}}],"ok":""}
+{"fn":"systemLocale","args":[{"a":"b"},"HELLO",".leading"],"ok":"HELLO"}
+{"fn":"systemLocale","args":[{},"Hello World","hello"],"ok":"Hello World"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"﻿bom",":"],"ok":"﻿bom"}
+{"fn":"systemLocale","args":[0,"hello  padded  ","hello"],"ok":"hello  padded  "}
+{"fn":"systemLocale","args":[{},"ab","a"],"ok":"ab"}
+{"fn":"systemLocale","args":[0,"a",{"$undefined":true}],"ok":"a"}
+{"fn":"systemLocale","args":[0,"HELLO",{"$undefined":true}],"ok":"HELLO"}
+{"fn":"systemLocale","args":[0,{"$undefined":true},":"],"ok":""}
+{"fn":"systemLocale","args":[["a",1],"A..B","a..b"],"ok":"A..B"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"c","a😀b😀c"],"ok":"c"}
+{"fn":"systemLocale","args":[{"a":"b"},"ΣΊΣΥΦΟΣ","Σ"],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"systemLocale","args":[{"$undefined":true},"HELLOa","ab:"],"ok":"HELLOa"}
+{"fn":"systemLocale","args":[true,{"$undefined":true},"a😀b😀c"],"ok":""}
+{"fn":"systemLocale","args":["x",{"$undefined":true},"a..b"],"ok":""}
+{"fn":"systemLocale","args":[["a",1],"  padded  日本語のテキスト",""],"ok":"  padded  日本語のテキスト"}
+{"fn":"systemLocale","args":[null,"日本語のテキスト","日本語"],"ok":"日本語のテキスト"}
+{"fn":"systemLocale","args":[null,"abc",{"$undefined":true}],"ok":"abc"}
+{"fn":"systemLocale","args":[0,"./x/**/*.json","J"],"ok":"./x/**/*.json"}
+{"fn":"systemLocale","args":[0,{"$undefined":true},"a:b:c"],"ok":""}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"key_name-1","a"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[{"a":"b"},{"$undefined":true},{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[0,{"$undefined":true},""],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},"line1\nline2",".leading﻿bom"],"ok":"line1\nline2"}
+{"fn":"systemLocale","args":[{"$undefined":true},"emoji 👍🏽 mix","m"],"ok":"emoji 👍🏽 mix"}
+{"fn":"systemLocale","args":[true,"  padded  "],"ok":"  padded  "}
+{"fn":"systemLocale","args":[{"$undefined":true},"{name} has {count} items","hello worldabc"],"ok":"{name} has {count} items"}
+{"fn":"systemLocale","args":[[],{"$undefined":true},"emoji 👍🏽 mixünïcödé"],"ok":""}
+{"fn":"systemLocale","args":[{"a":"b"},".leading.leading","日本語のテキスト"],"ok":".leading.leading"}
+{"fn":"systemLocale","args":[{"$undefined":true},"a.b.c","src/a/b.ts"],"ok":"a.b.c"}
+{"fn":"systemLocale","args":[[],"Hello World","hello"],"ok":"Hello World"}
+{"fn":"systemLocale","args":[[]],"ok":""}
+{"fn":"systemLocale","args":[{"a":"b"},"  padded  ","  padded  "],"ok":"  padded  "}
+{"fn":"systemLocale","args":["x",{"$undefined":true},"ΣΊΣΥΦΟΣ"],"ok":""}
+{"fn":"systemLocale","args":["x","key_name-1",{"$undefined":true}],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[null,"ab","A"],"ok":"ab"}
+{"fn":"systemLocale","args":[{"a":"b"},"﻿bom",{"$undefined":true}],"ok":"﻿bom"}
+{"fn":"systemLocale","args":[["a",1]],"ok":""}
+{"fn":"systemLocale","args":["x","hello","Hello Worldstraße"],"ok":"hello"}
+{"fn":"systemLocale","args":["x","abc","X"],"ok":"abc"}
+{"fn":"systemLocale","args":[null,"  padded  hello"],"ok":"  padded  hello"}
+{"fn":"systemLocale","args":[true,":",":"],"ok":":"}
+{"fn":"systemLocale","args":["x","tab\tseparated","hello"],"ok":"tab\tseparated"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"tab\tseparatedhello","a:b:c"],"ok":"tab\tseparatedhello"}
+{"fn":"systemLocale","args":[{"$undefined":true},"emoji 👍🏽 mix",{"$undefined":true}],"ok":"emoji 👍🏽 mix"}
+{"fn":"systemLocale","args":[{},"a😀b😀c","b😀"],"ok":"a😀b😀c"}
+{"fn":"systemLocale","args":[null,"  padded  ",{"$undefined":true}],"ok":"  padded  "}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"HELLOsrc/a/b.ts",{"$undefined":true}],"ok":"HELLOsrc/a/b.ts"}
+{"fn":"systemLocale","args":[["a",1],"hello world"],"ok":"hello world"}
+{"fn":"systemLocale","args":[{},"Hello World","key_name-1"],"ok":"Hello World"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"key_name-1"],"ok":""}
+{"fn":"systemLocale","args":[{"a":"b"},"ns:key.path","emoji 👍🏽 mix"],"ok":"ns:key.path"}
+{"fn":"systemLocale","args":["x","","straße"],"ok":""}
+{"fn":"systemLocale","args":["x",{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},".leading","a:b:c"],"ok":".leading"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},{"$undefined":true},"😀日本語のテキスト"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},"é","line1\nline2"],"ok":"é"}
+{"fn":"systemLocale","args":[{"a":"b"},"hello world","HELLO W"],"ok":"hello world"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"straße","straß"],"ok":"straße"}
+{"fn":"systemLocale","args":[{},{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[{"a":"b"},{"$undefined":true},"a..bΣΊΣΥΦΟΣ"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},"trailing.a..b"],"ok":"trailing.a..b"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"ΣΊΣΥΦΟΣ"],"ok":""}
+{"fn":"systemLocale","args":[{"$undefined":true},"ΣΊΣΥΦΟΣİstanbul","hello world"],"ok":"ΣΊΣΥΦΟΣİstanbul"}
+{"fn":"systemLocale","args":[{},"a..b","ns:key.path"],"ok":"a..b"}
+{"fn":"systemLocale","args":[true,"a"],"ok":"a"}
+{"fn":"systemLocale","args":[null,"ΣΊΣΥΦΟΣ","./x/**/*.jsonhello world"],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"systemLocale","args":[null,"src/a/b.tsHELLO","  padded  "],"ok":"src/a/b.tsHELLO"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"line1\nline2","ns:key.path"],"ok":"line1\nline2"}
+{"fn":"systemLocale","args":[["a",1],{"$undefined":true},".leading"],"ok":""}
+{"fn":"systemLocale","args":["x","a","src/a/b.ts"],"ok":"a"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"😀"],"ok":""}
+{"fn":"systemLocale","args":[null,"😀"],"ok":"😀"}
+{"fn":"systemLocale","args":["x",{"$undefined":true},"é"],"ok":""}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"é","HELLO"],"ok":"é"}
+{"fn":"systemLocale","args":[{"$undefined":true},{"$undefined":true},"./x/**/*.json"],"ok":""}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"Hello Worlda:b:c","trailing."],"ok":"Hello Worlda:b:c"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"ünïcödé","é"],"ok":"ünïcödé"}
+{"fn":"systemLocale","args":["x","x","src/a/b.ts"],"ok":"x"}
+{"fn":"systemLocale","args":[true,{"$undefined":true},"hello worldns:key.path"],"ok":""}
+{"fn":"systemLocale","args":[0,{"$undefined":true},"a..b"],"ok":""}
+{"fn":"systemLocale","args":[[],"ns:key.pathstraße","a😀b😀c"],"ok":"ns:key.pathstraße"}
+{"fn":"systemLocale","args":[{},"hello world","line1\nline2"],"ok":"hello world"}
+{"fn":"systemLocale","args":[["a",1],"ΣΊΣΥΦΟΣ",{"$undefined":true}],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"systemLocale","args":[{"a":{"b":"c"}},"tab\tseparated","a😀b😀c"],"ok":"tab\tseparated"}
+{"fn":"systemLocale","args":[true,".le","  padded  .leading"],"ok":".le"}
+{"fn":"systemLocale","args":[0,{"$undefined":true},{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[0,"héllo wörld",{"$undefined":true}],"ok":"héllo wörld"}
+{"fn":"systemLocale","args":[0,"👍🏽 thumbs",{"$undefined":true}],"ok":"👍🏽 thumbs"}
+{"fn":"systemLocale","args":[0,"日本語",{"$undefined":true}],"ok":"日本語"}
+{"fn":"systemLocale","args":[0,"",{"$undefined":true}],"ok":""}
+{"fn":"systemLocale","args":[0,"é",{"$undefined":true}],"ok":"é"}
+{"fn":"systemLocale","args":[0,"İstanbul",{"$undefined":true}],"ok":"İstanbul"}
+{"fn":"systemLocale","args":[0,"straße",{"$undefined":true}],"ok":"straße"}
+{"fn":"systemLocale","args":[0,"ılık ırmak",{"$undefined":true}],"ok":"ılık ırmak"}
+{"fn":"systemLocale","args":[0,"👨‍👩‍👧 family",{"$undefined":true}],"ok":"👨‍👩‍👧 family"}
+{"fn":"systemLocale","args":[0,"a b",{"$undefined":true}],"ok":"a b"}
+{"fn":"systemLocale","args":[0,"ΣΊΣΥΦΟΣ",{"$undefined":true}],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"systemLocale","args":[0,"a😀b",{"$undefined":true}],"ok":"a😀b"}
+{"fn":"systemLocale","args":[0,"﻿bom",{"$undefined":true}],"ok":"﻿bom"}
+{"fn":"systemLocale","args":[0,"a²b x½ y①",{"$undefined":true}],"ok":"a²b x½ y①"}
+{"fn":"systemLocale","args":[0,"aⅠb Ⅻ",{"$undefined":true}],"ok":"aⅠb Ⅻ"}
+{"fn":"systemLocale","args":[0,"a𐐀b 𝐀bc",{"$undefined":true}],"ok":"a𐐀b 𝐀bc"}
+{"fn":"systemLocale","args":[0,"कि ٣٤",{"$undefined":true}],"ok":"कि ٣٤"}
+{"fn":"systemLocale","args":[0,"key_name-1","héllo wörld"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","👍🏽 thumbs"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","日本語"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1",""],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","é"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","İstanbul"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","straße"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","ılık ırmak"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","👨‍👩‍👧 family"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","a b"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","ΣΊΣΥΦΟΣ"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","a😀b"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","﻿bom"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","a²b x½ y①"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","aⅠb Ⅻ"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","a𐐀b 𝐀bc"],"ok":"key_name-1"}
+{"fn":"systemLocale","args":[0,"key_name-1","कि ٣٤"],"ok":"key_name-1"}
+{"fn":"readPreference","args":[true],"ok":"system"}
+{"fn":"readPreference","args":[null],"ok":"system"}
+{"fn":"readPreference","args":[{}],"ok":"system"}
+{"fn":"readPreference","args":[[]],"ok":"system"}
+{"fn":"readPreference","args":[{"a":"b"}],"ok":"system"}
+{"fn":"readPreference","args":[0],"ok":"system"}
+{"fn":"readPreference","args":[["a",1]],"ok":"system"}
+{"fn":"readPreference","args":["x"],"ok":"system"}
+{"fn":"readPreference","args":[{"a":{"b":"c"}}],"ok":"system"}
+{"fn":"readPreference","args":[{"2":4,"10":3,"zebra":1,"apple":2,"é":5,"Apple":6}],"ok":"system"}
+{"fn":"readPreference","args":[{"n":9007199254740992,"f":1e+21,"t":0.1,"neg":-7}],"ok":"system"}
+{"fn":"readPreference","args":[[3,1,2]],"ok":"system"}
+{"fn":"savePreference","args":["x","x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,[]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,["a",1]],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":"b"},null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[true,null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{},{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"a":{"b":"c"}},0],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[["a",1],true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[],{"a":"b"}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,true],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[0,{"a":{"b":"c"}}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x","X"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["X","x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"2":4,"10":3,"zebra":1,"apple":2,"é":5,"Apple":6},"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"n":9007199254740992,"f":1e+21,"t":0.1,"neg":-7},"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[[3,1,2],"x"],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",{"2":4,"10":3,"zebra":1,"apple":2,"é":5,"Apple":6}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",{"n":9007199254740992,"f":1e+21,"t":0.1,"neg":-7}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["x",[3,1,2]],"error":"Unsupported language preference"}
+{"fn":"resolveLanguage","args":["zh-CN","fr-FR"],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["en","fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":["system","fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":["ZH-CN","fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":["","fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":[null,"fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":[1,"fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":[true,"fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":[["zh-CN"],"fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"a":1},"fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":[{"$undefined":true},"fr-FR"],"ok":"en"}
+{"fn":"resolveLanguage","args":["system","zh-CN"],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["system","ZH"],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["system","zh_CN"],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["system","zh.CN"],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["system","zh@x"],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["system","zh-Hans"],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["system","zhong"],"ok":"en"}
+{"fn":"resolveLanguage","args":["system"," zh-CN "],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["system","en-US"],"ok":"en"}
+{"fn":"resolveLanguage","args":["system",""],"ok":"en"}
+{"fn":"resolveLanguage","args":["system","  "],"ok":"en"}
+{"fn":"resolveLanguage","args":["system",{"$undefined":true}],"ok":"en"}
+{"fn":"resolveLanguage","args":["system",null],"ok":"en"}
+{"fn":"resolveLanguage","args":["system",0],"ok":"en"}
+{"fn":"resolveLanguage","args":["system",["zh-CN"]],"ok":"zh-CN"}
+{"fn":"resolveLanguage","args":["system",{"a":1}],"ok":"en"}
+{"fn":"systemLocale","args":[{},"en","linux"],"ok":"en"}
+{"fn":"systemLocale","args":[{"LC_ALL":"zh_CN.UTF-8"},"en","linux"],"ok":"zh_CN.UTF-8"}
+{"fn":"systemLocale","args":[{"LC_MESSAGES":"fr_FR"},"en","linux"],"ok":"fr_FR"}
+{"fn":"systemLocale","args":[{"LANG":"de_DE"},"en","linux"],"ok":"de_DE"}
+{"fn":"systemLocale","args":[{"LC_ALL":"","LANG":"de_DE"},"en","linux"],"ok":"de_DE"}
+{"fn":"systemLocale","args":[{"LC_ALL":0,"LC_MESSAGES":"fr_FR"},"en","linux"],"ok":"fr_FR"}
+{"fn":"systemLocale","args":[{"LANG":42},"en","linux"],"ok":42}
+{"fn":"systemLocale","args":[{"LC_ALL":"zh_CN"},"en","darwin"],"ok":"en"}
+{"fn":"systemLocale","args":[{"LC_ALL":"zh_CN"},"en",{"$undefined":true}],"ok":"en"}
+{"fn":"systemLocale","args":[{"LC_ALL":"zh_CN"},{"$undefined":true},"linux"],"ok":"zh_CN"}
+{"fn":"systemLocale","args":[{"$undefined":true},"en","linux"],"ok":"en"}
+{"fn":"systemLocale","args":[null,"en","linux"],"error":"Cannot read properties of null (reading 'LC_ALL')"}
+{"fn":"systemLocale","args":["x","en","linux"],"ok":"en"}
+{"fn":"systemLocale","args":[42,"en","linux"],"ok":"en"}
+{"fn":"systemLocale","args":[[],"en","linux"],"ok":"en"}
+{"fn":"systemLocale","args":[{"LC_ALL":"zh_CN"},"en"],"ok":"en"}
+{"fn":"systemLocale","args":[],"ok":""}
+{"fn":"readPreference","args":[{}],"ok":"system"}
+{"fn":"readPreference","args":[{"getItem":"x"}],"ok":"system"}
+{"fn":"readPreference","args":[null],"ok":"system"}
+{"fn":"readPreference","args":[{"$undefined":true}],"ok":"system"}
+{"fn":"readPreference","args":[0],"ok":"system"}
+{"fn":"readPreference","args":["x"],"ok":"system"}
+{"fn":"readPreference","args":[[]],"ok":"system"}
+{"fn":"readPreference","args":[true],"ok":"system"}
+{"fn":"savePreference","args":["zh-CN",{}],"error":"storage.setItem is not a function"}
+{"fn":"savePreference","args":["zh-CN",null],"error":"Cannot read properties of null (reading 'setItem')"}
+{"fn":"savePreference","args":["en",{}],"error":"storage.setItem is not a function"}
+{"fn":"savePreference","args":["en",null],"error":"Cannot read properties of null (reading 'setItem')"}
+{"fn":"savePreference","args":["system",{}],"error":"storage.setItem is not a function"}
+{"fn":"savePreference","args":["system",null],"error":"Cannot read properties of null (reading 'setItem')"}
+{"fn":"savePreference","args":["bad",{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["bad",null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["EN",{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["EN",null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[null,null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[1,{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[1,null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"$undefined":true},{}],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":[{"$undefined":true},null],"error":"Unsupported language preference"}
+{"fn":"savePreference","args":["en",{"$undefined":true}],"error":"Cannot read properties of undefined (reading 'setItem')"}
+{"fn":"savePreference","args":["en","x"],"error":"storage.setItem is not a function"}

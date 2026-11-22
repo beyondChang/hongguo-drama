@@ -1,0 +1,26 @@
+[package]
+name = "hongguo-desktop"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97"
+publish = false
+description = "Tauri 2 desktop shell for hongguo-drama (vertical-slice skeleton, ADR-002/003)"
+
+[features]
+default = []
+# Enable only when building the actual Tauri window (needs WebView2/WKWebView/webkitgtk).
+tauri-runtime = ["dep:tauri"]
+
+[[bin]]
+name = "hongguo-desktop"
+path = "src/bin/desktop.rs"
+required-features = ["tauri-runtime"]
+
+[dependencies]
+tauri = { version = "2", optional = true }
+serde_json = "1"
+hongguo-app-update = { path = "../hongguo-app-update" }
+hongguo-window-layout = { path = "../hongguo-window-layout" }
+hongguo-download-quality = { path = "../hongguo-download-quality" }
+hongguo-media-sources = { path = "../hongguo-media-sources" }
+hongguo-js = { path = "../hongguo-js" }

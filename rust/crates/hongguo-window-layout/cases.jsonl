@@ -1,0 +1,50 @@
+{"fn":"fitWindowBounds","args":["portrait",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"$undefined":true}],"ok":{"x":590,"y":60,"width":620,"height":940}}
+{"fn":"fitWindowBounds","args":["portrait",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},null],"ok":{"x":590,"y":60,"width":620,"height":940}}
+{"fn":"fitWindowBounds","args":["portrait",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":1100,"height":750,"x":50,"y":50}],"ok":{"x":590,"y":60,"width":620,"height":940}}
+{"fn":"fitWindowBounds","args":["portrait",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":500,"height":400},{"width":2000,"height":2000}],"ok":{"x":204,"y":0,"width":296,"height":400}}
+{"fn":"fitWindowBounds","args":["landscape",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"$undefined":true}],"ok":{"x":350,"y":155,"width":1100,"height":750}}
+{"fn":"fitWindowBounds","args":["landscape",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},null],"ok":{"x":350,"y":155,"width":1100,"height":750}}
+{"fn":"fitWindowBounds","args":["landscape",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":1100,"height":750,"x":50,"y":50}],"ok":{"x":50,"y":50,"width":1100,"height":750}}
+{"fn":"fitWindowBounds","args":["landscape",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":500,"height":400},{"width":2000,"height":2000}],"ok":{"x":{"$num":"NaN"},"y":{"$num":"NaN"},"width":500,"height":400}}
+{"fn":"fitWindowBounds","args":["bad",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"$undefined":true}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":["bad",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},null],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":["bad",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":1100,"height":750,"x":50,"y":50}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":["bad",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":500,"height":400},{"width":2000,"height":2000}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[null,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"$undefined":true}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[null,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},null],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[null,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":1100,"height":750,"x":50,"y":50}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[null,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":500,"height":400},{"width":2000,"height":2000}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[null,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"$undefined":true}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[null,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},null],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[null,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":1100,"height":750,"x":50,"y":50}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[null,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":500,"height":400},{"width":2000,"height":2000}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[42,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"$undefined":true}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[42,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},null],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[42,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":1100,"height":750,"x":50,"y":50}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":[42,{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":500,"height":400},{"width":2000,"height":2000}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":["",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"$undefined":true}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":["",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},null],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":["",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":1100,"height":750,"x":50,"y":50}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":["",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":500,"height":400},{"width":2000,"height":2000}],"error":"Invalid window layout"}
+{"fn":"fitWindowBounds","args":["portrait",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":0,"height":0}],"ok":{"x":590,"y":60,"width":620,"height":940}}
+{"fn":"fitWindowBounds","args":["landscape",{"x":100,"y":80,"width":1600,"height":900},{"x":0,"y":0,"width":1920,"height":1080},{"width":"900","height":"600","x":"10","y":"20"}],"ok":{"x":10,"y":20,"width":900,"height":600}}
+{"fn":"fitWindowBounds","args":["landscape",{"x":-100,"y":-50,"width":3000,"height":2000},{"x":100,"y":100,"width":800,"height":600},{"$undefined":true}],"ok":{"x":100,"y":100,"width":800,"height":600}}
+{"fn":"getWindowScale","args":[1],"ok":1}
+{"fn":"getWindowScale","args":[0.5],"ok":0.5}
+{"fn":"getWindowScale","args":[2],"ok":2}
+{"fn":"getWindowScale","args":[0.3],"ok":0.5}
+{"fn":"getWindowScale","args":[3],"ok":2}
+{"fn":"getWindowScale","args":[1.05],"ok":1.05}
+{"fn":"getWindowScale","args":[1.04],"ok":1.04}
+{"fn":"getWindowScale","args":[0],"ok":0.5}
+{"fn":"getWindowScale","args":[-1],"ok":0.5}
+{"fn":"getWindowScale","args":[null],"ok":1}
+{"fn":"getWindowScale","args":[null],"ok":1}
+{"fn":"getWindowScale","args":["1.5"],"ok":1}
+{"fn":"getWindowScale","args":[null],"ok":1}
+{"fn":"getWindowScale","args":[null],"ok":1}
+{"fn":"getWindowScale","args":[{"$undefined":true}],"ok":1}
+{"fn":"getWindowScale","args":[{}],"ok":1}
+{"fn":"getWindowScale","args":[[]],"ok":1}
+{"fn":"getWindowScale","args":[true],"ok":1}
+{"fn":"getWindowScale","args":[],"ok":1}

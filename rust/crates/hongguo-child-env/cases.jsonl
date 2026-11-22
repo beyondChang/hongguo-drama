@@ -1,0 +1,9 @@
+{"fn":"localMediaEnv","args":[{"HTTP_PROXY":"a","HTTPS_PROXY":"b","http_proxy":"c","https_proxy":"d","ALL_PROXY":"e","all_proxy":"f","NO_PROXY":"g","no_proxy":"h","PATH":"/bin","HOME":"/home"}],"ok":{"PATH":"/bin","HOME":"/home"}}
+{"fn":"localMediaEnv","args":[{"HTTP_PROXY":"a","PATH":"/bin"}],"ok":{"PATH":"/bin"}}
+{"fn":"localMediaEnv","args":[{"PATH":"/bin"}],"ok":{"PATH":"/bin"}}
+{"fn":"localMediaEnv","args":[{}],"ok":{}}
+{"fn":"localMediaEnv","args":[null],"ok":{}}
+{"fn":"localMediaEnv","args":[42],"ok":{}}
+{"fn":"localMediaEnv","args":["x"],"ok":{"0":"x"}}
+{"fn":"localMediaEnv","args":[["a",1,"b"]],"ok":{"0":"a","1":1,"2":"b"}}
+{"fn":"localMediaEnv","args":[{"HTTP_PROXY":"a","Path":"P","nested":{"HTTPS_PROXY":"x"}}],"ok":{"Path":"P","nested":{"HTTPS_PROXY":"x"}}}

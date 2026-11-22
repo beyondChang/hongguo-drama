@@ -1,0 +1,108 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "D:\\system\\desktop\\ai\\hongguo-drama",
+  "unit": "src/native/ui-language.mjs",
+  "language": "ts",
+  "kind": "napi",
+  "crate_name": "hongguo-ui-language",
+  "exports": [
+    {
+      "name": "resolveLanguage",
+      "file": "src/native/ui-language.mjs",
+      "line": 3,
+      "params": [
+        {
+          "name": "preference",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        },
+        {
+          "name": "locale",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    },
+    {
+      "name": "systemLocale",
+      "file": "src/native/ui-language.mjs",
+      "line": 7,
+      "params": [
+        {
+          "name": "env",
+          "ts_type": "unknown",
+          "optional": true,
+          "rest": false
+        },
+        {
+          "name": "locale",
+          "ts_type": "string",
+          "optional": true,
+          "rest": false
+        },
+        {
+          "name": "platform",
+          "ts_type": "string",
+          "optional": true,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    },
+    {
+      "name": "readPreference",
+      "file": "src/native/ui-language.mjs",
+      "line": 10,
+      "params": [
+        {
+          "name": "storage",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    },
+    {
+      "name": "savePreference",
+      "file": "src/native/ui-language.mjs",
+      "line": 14,
+      "params": [
+        {
+          "name": "preference",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        },
+        {
+          "name": "storage",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

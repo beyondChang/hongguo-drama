@@ -1,0 +1,13 @@
+{"fn":"buildEncoderArgs","args":["h264_videotoolbox"]}
+{"fn":"buildEncoderArgs","args":["h264_nvenc"]}
+{"fn":"buildEncoderArgs","args":["h264_amf"]}
+{"fn":"buildEncoderArgs","args":["h264_qsv"]}
+{"fn":"buildEncoderArgs","args":["libx264"]}
+{"fn":"buildEncoderArgs","args":[""]}
+{"fn":"buildEncoderArgs","args":[null]}
+{"fn":"buildEncoderArgs","args":[null]}
+{"fn":"buildEncoderArgs","args":[42]}
+{"fn":"buildEncoderArgs","args":[true]}
+{"fn":"buildEncoderArgs","args":[{}]}
+{"fn":"buildEncoderArgs","args":[[]]}
+{"fn":"buildEncoderArgs","args":["H264_NVENC"]}

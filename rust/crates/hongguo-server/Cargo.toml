@@ -1,0 +1,18 @@
+[package]
+name = "hongguo-server"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97"
+publish = false
+description = "Rust axum port of the hongguo-drama Web/Docker server (minimal vertical slice)"
+
+[dependencies]
+axum = "0.8"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "net", "signal"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+subtle = "2"
+hongguo-app-update = { path = "../hongguo-app-update" }
+hongguo-window-layout = { path = "../hongguo-window-layout" }
+hongguo-js = { path = "../hongguo-js" }

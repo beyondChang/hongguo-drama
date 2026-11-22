@@ -1,0 +1,63 @@
+{"fn":"safeErrorText","args":[null]}
+{"fn":"safeErrorText","args":[null]}
+{"fn":"safeErrorText","args":[0]}
+{"fn":"safeErrorText","args":[false]}
+{"fn":"safeErrorText","args":[true]}
+{"fn":"safeErrorText","args":[""]}
+{"fn":"safeErrorText","args":["x"]}
+{"fn":"safeErrorText","args":["Bearer abc123"]}
+{"fn":"safeErrorText","args":["decryption_key token"]}
+{"fn":"safeErrorText","args":["decryption_key=zz"]}
+{"fn":"safeErrorText","args":["https://u:p@example.com/a?b=1"]}
+{"fn":"safeErrorText","args":["ftp://u:p@example.com/a"]}
+{"fn":"safeErrorText","args":["see https://a.b/c, ok"]}
+{"fn":"safeErrorText","args":["https://a.b/c。"]}
+{"fn":"safeErrorText","args":["HTTP://a.b/c"]}
+{"fn":"safeErrorText","args":["https://"]}
+{"fn":"safeErrorText","args":["auth://user:pw@host/x"]}
+{"fn":"safeErrorText","args":["error at http://127.0.0.1:8080/path. "]}
+{"fn":"safeErrorText","args":["BEARER abc def"]}
+{"fn":"safeErrorText","args":["xbearer abc"]}
+{"fn":"safeErrorText","args":["https://[来源地址已隐藏]"]}
+{"fn":"safeErrorText","args":["😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀"]}
+{"fn":"safeErrorText","args":[{"a":1}]}
+{"fn":"safeErrorText","args":[[1,2]]}
+{"fn":"safeErrorText","args":[null]}
+{"fn":"safeErrorText","args":[null]}
+{"fn":"safeErrorText","args":["abcdef",null]}
+{"fn":"safeErrorText","args":["abcdef",null]}
+{"fn":"safeErrorText","args":["abcdef",0]}
+{"fn":"safeErrorText","args":["abcdef",1]}
+{"fn":"safeErrorText","args":["abcdef",3]}
+{"fn":"safeErrorText","args":["abcdef",-1]}
+{"fn":"safeErrorText","args":["abcdef",1.5]}
+{"fn":"safeErrorText","args":["abcdef",700]}
+{"fn":"safeErrorText","args":["abcdef","100"]}
+{"fn":"safeErrorText","args":["abcdef","abc"]}
+{"fn":"safeErrorText","args":["abcdef",null]}
+{"fn":"safeErrorText","args":["abcdef",null]}
+{"fn":"safeErrorText","args":["😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀",5]}
+{"fn":"sanitizeIpcValue","args":[null]}
+{"fn":"sanitizeIpcValue","args":[null]}
+{"fn":"sanitizeIpcValue","args":["x"]}
+{"fn":"sanitizeIpcValue","args":[5]}
+{"fn":"sanitizeIpcValue","args":[{"error":"Bearer secret","ok":1}]}
+{"fn":"sanitizeIpcValue","args":[{"ERROR":"Bearer secret"}]}
+{"fn":"sanitizeIpcValue","args":[{"apiError":"https://u:p@a.b/c?x=1"}]}
+{"fn":"sanitizeIpcValue","args":[{"warning":"Bearer x"}]}
+{"fn":"sanitizeIpcValue","args":[{"reason":"Bearer x"}]}
+{"fn":"sanitizeIpcValue","args":[{"lastCheckError":"Bearer x"}]}
+{"fn":"sanitizeIpcValue","args":[{"lastEpisodeCheckError":"Bearer x"}]}
+{"fn":"sanitizeIpcValue","args":[{"lastSequelCheckError":"Bearer x"}]}
+{"fn":"sanitizeIpcValue","args":[{"other":"Bearer x"}]}
+{"fn":"sanitizeIpcValue","args":[{"n":{"error":"Bearer x"},"list":[{"reason":"Bearer y"},2]}]}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":{"c":{"d":{"e":{"f":{"g":{"h":{"i":1}}}}}}}}}]}
+{"fn":"sanitizeIpcValue","args":[{"error":"Bearer x"},9]}
+{"fn":"sanitizeIpcValue","args":[{"error":"Bearer x"},0]}
+{"fn":"sanitizeIpcValue","args":[{"error":"Bearer x"},0,{}]}
+{"fn":"sanitizeIpcValue","args":[{"$date":"1970-01-01T00:00:00.000Z"}]}
+{"fn":"sanitizeIpcValue","args":[{"$map":[["a",1]]}]}
+{"fn":"sanitizeIpcValue","args":[{"$set":[1,2]}]}
+{"fn":"sanitizeIpcValue","args":[{"$bigint":"123"}]}
+{"fn":"sanitizeIpcValue","args":[{"$undefined":true}]}
+{"fn":"sanitizeIpcValue","args":[[1,"Bearer x",{"error":"Bearer z"}]]}

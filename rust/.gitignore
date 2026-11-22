@@ -1,0 +1,10 @@
+# The workspace build directory.
+target/
+
+# The native modules the bridge builds for each unit.
+*.node
+*.so
+*.pyd
+
+# The tool's own cache.
+.rust-anything/

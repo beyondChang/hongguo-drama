@@ -1,0 +1,30 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "D:\\system\\desktop\\ai\\hongguo-drama",
+  "unit": "src/native/_wrapper-hardware-encoder.js",
+  "language": "ts",
+  "kind": "napi",
+  "crate_name": "hongguo-hardware-encoder",
+  "exports": [
+    {
+      "name": "buildEncoderArgs",
+      "file": "src/native/_wrapper-hardware-encoder.js",
+      "line": 4,
+      "params": [
+        {
+          "name": "encoder",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

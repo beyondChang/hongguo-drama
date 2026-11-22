@@ -1,0 +1,10 @@
+{"fn":"meetsDownloadQuality","args":[{},"hello world  padded  "],"error":"下载清晰度无效，请选择自动、1080p 或 720p"}
+{"fn":"meetsDownloadQuality","args":[{},"emoji 👍🏽 mixns:key.path"],"error":"下载清晰度无效，请选择自动、1080p 或 720p"}
+{"fn":"meetsDownloadQuality","args":[null,"tab\tseparated😀"],"error":"Cannot destructure property 'width' of '(intermediate value)(intermediate value)(intermediate value)' as it is null."}
+{"fn":"meetsDownloadQuality","args":[{"a":{"b":"c"}},"﻿bom😀"],"error":"下载清晰度无效，请选择自动、1080p 或 720p"}
+{"fn":"meetsDownloadQuality","args":["x","Hello World./x/**/*.json"],"error":"下载清晰度无效，请选择自动、1080p 或 720p"}
+{"fn":"meetsDownloadQuality","args":["nïc","ünïcödé"],"error":"下载清晰度无效，请选择自动、1080p 或 720p"}
+{"fn":"meetsDownloadQuality","args":[0,"hello worldünïcödé"],"error":"下载清晰度无效，请选择自动、1080p 或 720p"}
+{"fn":"meetsDownloadQuality","args":[null,"{name} has {count} itemsΣΊΣΥΦΟΣ"],"error":"Cannot destructure property 'width' of '(intermediate value)(intermediate value)(intermediate value)' as it is null."}
+{"fn":"meetsDownloadQuality","args":[{"a":{"b":"c"}},"./x/**/*.jsoné"],"error":"下载清晰度无效，请选择自动、1080p 或 720p"}
+{"fn":"meetsDownloadQuality","args":[0,"abc  padded  "],"error":"下载清晰度无效，请选择自动、1080p 或 720p"}

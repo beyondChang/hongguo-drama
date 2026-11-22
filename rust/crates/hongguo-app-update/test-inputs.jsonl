@@ -1,0 +1,114 @@
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.0"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.0"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.0"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.0"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.0"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.10"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.10"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.10"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.10"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.10"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v8.0.0"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v8.0.0"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v8.0.0"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v8.0.0"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v8.0.0"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.8.9"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.8.9"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.8.9"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.8.9"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.8.9"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v07.09.01"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v07.09.01"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v07.09.01"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v07.09.01"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v07.09.01"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.1.2"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.1.2"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.1.2"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.1.2"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"7.9.1.2"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"junk"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"junk"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"junk"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"junk"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"junk"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":""},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":""},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":""},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":""},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":""},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":null},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":null},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":null},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":null},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":null},"7.10"]}
+{"fn":"availableRelease","args":[{},"7.9"]}
+{"fn":"availableRelease","args":[{},"v7.9.0"]}
+{"fn":"availableRelease","args":[{},"7.9.1"]}
+{"fn":"availableRelease","args":[{},"7.8"]}
+{"fn":"availableRelease","args":[{},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":42},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":42},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":42},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":42},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":42},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2.3-beta"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2.3-beta"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2.3-beta"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2.3-beta"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2.3-beta"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v99999999999999999999.0.0"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v99999999999999999999.0.0"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v99999999999999999999.0.0"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v99999999999999999999.0.0"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v99999999999999999999.0.0"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v1.2"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":" 7.9.0"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":" 7.9.0"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":" 7.9.0"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":" 7.9.0"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":" 7.9.0"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.0 "},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.0 "},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.0 "},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.0 "},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.0 "},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"V7.9.0"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"V7.9.0"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"V7.9.0"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"V7.9.0"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"V7.9.0"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.00"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.00"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.00"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.00"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.00"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v0.0.0"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v0.0.0"},"v7.9.0"]}
+{"fn":"availableRelease","args":[{"tag_name":"v0.0.0"},"7.9.1"]}
+{"fn":"availableRelease","args":[{"tag_name":"v0.0.0"},"7.8"]}
+{"fn":"availableRelease","args":[{"tag_name":"v0.0.0"},"7.10"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1","draft":true},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1","prerelease":true},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1","draft":false,"prerelease":false},"7.9"]}
+{"fn":"availableRelease","args":[null,"7.9"]}
+{"fn":"availableRelease","args":[null,"7.9"]}
+{"fn":"availableRelease","args":[{},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v 7.9.0"},"7.9"]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1"},{"$undefined":true}]}
+{"fn":"availableRelease","args":[{"tag_name":"v7.9.1"},42]}

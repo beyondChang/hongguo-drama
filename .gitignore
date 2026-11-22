@@ -89,6 +89,8 @@ verification/
 rollback/
 dist-local/
 HANDOFF.md
+# The Rust migration keeps its own handoff notes; the rule above is for local scratch files.
+!rust/HANDOFF.md
 
 .local/
 .tokensave/

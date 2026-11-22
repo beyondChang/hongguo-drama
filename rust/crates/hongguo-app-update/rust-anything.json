@@ -1,0 +1,36 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "D:\\system\\desktop\\ai\\hongguo-drama",
+  "unit": "src/native/app-update.js",
+  "language": "ts",
+  "kind": "napi",
+  "crate_name": "hongguo-app-update",
+  "exports": [
+    {
+      "name": "availableRelease",
+      "file": "src/native/app-update.js",
+      "line": 10,
+      "params": [
+        {
+          "name": "data",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        },
+        {
+          "name": "currentVersion",
+          "ts_type": "unknown",
+          "optional": false,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

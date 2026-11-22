@@ -1,0 +1,54 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "D:\\system\\desktop\\ai\\hongguo-drama",
+  "unit": "src/native/download-quality.js",
+  "language": "ts",
+  "kind": "napi",
+  "crate_name": "hongguo-download-quality",
+  "exports": [
+    {
+      "name": "normalizeDownloadQuality",
+      "file": "src/native/download-quality.js",
+      "line": 3,
+      "params": [
+        {
+          "name": "value",
+          "ts_type": "string",
+          "optional": true,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    },
+    {
+      "name": "meetsDownloadQuality",
+      "file": "src/native/download-quality.js",
+      "line": 8,
+      "params": [
+        {
+          "name": "arg0",
+          "ts_type": "unknown",
+          "optional": true,
+          "rest": false
+        },
+        {
+          "name": "quality",
+          "ts_type": "string",
+          "optional": true,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

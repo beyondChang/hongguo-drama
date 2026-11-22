@@ -1,0 +1,402 @@
+{"fn":"safeErrorText","args":[{},9007199254740992],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[null,2147483648],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[["a",1]],"ok":"a,1"}
+{"fn":"safeErrorText","args":[["a",1],42],"ok":"a,1"}
+{"fn":"safeErrorText","args":[[],1],"ok":""}
+{"fn":"safeErrorText","args":[{},{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":[true,{"$undefined":true}],"ok":"true"}
+{"fn":"safeErrorText","args":[null,{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":[0,1000],"ok":"0"}
+{"fn":"safeErrorText","args":[0,{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":[true,9007199254740992],"ok":"true"}
+{"fn":"safeErrorText","args":[{"a":"b"},9007199254740992],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[0,42],"ok":"0"}
+{"fn":"safeErrorText","args":["x"],"ok":"x"}
+{"fn":"safeErrorText","args":[0,2],"ok":"0"}
+{"fn":"safeErrorText","args":[{}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":["x",3],"ok":"x"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},42],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[["a",1],0.5],"ok":""}
+{"fn":"safeErrorText","args":[null],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[true,1000],"ok":"true"}
+{"fn":"safeErrorText","args":[{"a":"b"},{"$undefined":true}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},{"$undefined":true}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[0,0.5],"ok":""}
+{"fn":"safeErrorText","args":[0,{"$num":"Infinity"}],"ok":"0"}
+{"fn":"safeErrorText","args":[["a",1],100],"ok":"a,1"}
+{"fn":"safeErrorText","args":[{"a":"b"},10],"ok":"[object Ob"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},2],"ok":"[o"}
+{"fn":"safeErrorText","args":[[],0],"ok":""}
+{"fn":"safeErrorText","args":["x",2147483648],"ok":"x"}
+{"fn":"safeErrorText","args":["x",-1],"ok":""}
+{"fn":"safeErrorText","args":[true,1000000],"ok":"true"}
+{"fn":"safeErrorText","args":[0],"ok":"0"}
+{"fn":"safeErrorText","args":[{"a":"b"},2147483648],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[null,1],"ok":"操"}
+{"fn":"safeErrorText","args":[[],3],"ok":""}
+{"fn":"safeErrorText","args":[0,2147483648],"ok":"0"}
+{"fn":"safeErrorText","args":[{},100],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[null,-2.5],"ok":"操作"}
+{"fn":"safeErrorText","args":[["a",1],10],"ok":"a,1"}
+{"fn":"safeErrorText","args":[[],1000],"ok":""}
+{"fn":"safeErrorText","args":[true,-1],"ok":"tru"}
+{"fn":"safeErrorText","args":[0,{"$undefined":true}],"ok":"0"}
+{"fn":"safeErrorText","args":[{"a":"b"}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[true,10],"ok":"true"}
+{"fn":"safeErrorText","args":[null,0],"ok":""}
+{"fn":"safeErrorText","args":["x",{"$undefined":true}],"ok":"x"}
+{"fn":"safeErrorText","args":[true,3],"ok":"tru"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},{"$num":"Infinity"}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":["x",2],"ok":"x"}
+{"fn":"safeErrorText","args":[["a",1],{"$undefined":true}],"ok":"a,1"}
+{"fn":"safeErrorText","args":[{},1000],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[0,9007199254740992],"ok":"0"}
+{"fn":"safeErrorText","args":["x",9007199254740992],"ok":"x"}
+{"fn":"safeErrorText","args":["x",{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[null,0.5],"ok":""}
+{"fn":"safeErrorText","args":[0,100],"ok":"0"}
+{"fn":"safeErrorText","args":["x",0],"ok":""}
+{"fn":"safeErrorText","args":[true,2147483648],"ok":"true"}
+{"fn":"safeErrorText","args":[[],2],"ok":""}
+{"fn":"safeErrorText","args":[true,0.5],"ok":""}
+{"fn":"safeErrorText","args":[null,{"$undefined":true}],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[{},2],"ok":"[o"}
+{"fn":"safeErrorText","args":["x",1000000],"ok":"x"}
+{"fn":"safeErrorText","args":[[],100],"ok":""}
+{"fn":"safeErrorText","args":[{},-2.5],"ok":"[object Objec"}
+{"fn":"safeErrorText","args":["x",10],"ok":"x"}
+{"fn":"safeErrorText","args":[{"a":"b"},-2.5],"ok":"[object Objec"}
+{"fn":"safeErrorText","args":[true],"ok":"true"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},1000],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[null,-1],"ok":"操作失"}
+{"fn":"safeErrorText","args":[[],{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":[null,9007199254740992],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[{},{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":["x",100],"ok":"x"}
+{"fn":"safeErrorText","args":[[],{"$num":"Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":["x",{"$num":"Infinity"}],"ok":"x"}
+{"fn":"safeErrorText","args":[{"a":"b"},{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},3],"ok":"[ob"}
+{"fn":"safeErrorText","args":[true,0],"ok":""}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},0.5],"ok":""}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},1],"ok":"["}
+{"fn":"safeErrorText","args":[[],{"$undefined":true}],"ok":""}
+{"fn":"safeErrorText","args":[["a",1],0],"ok":""}
+{"fn":"safeErrorText","args":[null,1000],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[[],9007199254740992],"ok":""}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},-2.5],"ok":"[object Objec"}
+{"fn":"safeErrorText","args":[0,-1],"ok":""}
+{"fn":"safeErrorText","args":[[],1000000],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":[{},1],"ok":"["}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},1000000],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[true,{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},1000],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[{},{"$undefined":true}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[[]],"ok":""}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":[0,1],"ok":"0"}
+{"fn":"safeErrorText","args":[{},1000000],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[["a",1],-2.5],"ok":"a"}
+{"fn":"safeErrorText","args":[null,{"$num":"Infinity"}],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[[],{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},1],"ok":"["}
+{"fn":"safeErrorText","args":[{},0],"ok":""}
+{"fn":"safeErrorText","args":[["a",1],9007199254740992],"ok":"a,1"}
+{"fn":"safeErrorText","args":[0,{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},-1],"ok":"[object Object"}
+{"fn":"safeErrorText","args":[{"a":"b"},3],"ok":"[ob"}
+{"fn":"safeErrorText","args":[{},2147483648],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[null,1000000],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[[],10],"ok":""}
+{"fn":"safeErrorText","args":[null,42],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},100],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[{},10],"ok":"[object Ob"}
+{"fn":"safeErrorText","args":[true,-2.5],"ok":"tr"}
+{"fn":"safeErrorText","args":[["a",1],{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":[[],0.5],"ok":""}
+{"fn":"safeErrorText","args":["x",1],"ok":"x"}
+{"fn":"safeErrorText","args":[["a",1],{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[["a",1],3],"ok":"a,1"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},0],"ok":""}
+{"fn":"safeErrorText","args":[{},{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[null,2],"ok":"操作"}
+{"fn":"safeErrorText","args":[[],-1],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},1000000],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[{"a":"b"},{"$num":"Infinity"}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[[],42],"ok":""}
+{"fn":"safeErrorText","args":["x",1000],"ok":"x"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},2147483648],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[["a",1],2147483648],"ok":"a,1"}
+{"fn":"safeErrorText","args":[true,100],"ok":"true"}
+{"fn":"safeErrorText","args":[["a",1],{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":[null,{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[0,{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},42],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[0,3],"ok":"0"}
+{"fn":"safeErrorText","args":[{"a":"b"},0],"ok":""}
+{"fn":"safeErrorText","args":[{},3],"ok":"[ob"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},-1],"ok":"[object Object"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":[null,100],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[null,3],"ok":"操作失"}
+{"fn":"safeErrorText","args":[["a",1],1000],"ok":"a,1"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[true,1],"ok":"t"}
+{"fn":"safeErrorText","args":[true,{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":[0,10],"ok":"0"}
+{"fn":"safeErrorText","args":[["a",1],1],"ok":"a"}
+{"fn":"safeErrorText","args":[true,{"$num":"Infinity"}],"ok":"true"}
+{"fn":"safeErrorText","args":[{},42],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[["a",1],1000000],"ok":"a,1"}
+{"fn":"safeErrorText","args":[true,{"$num":"-Infinity"}],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},100],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[[],-2.5],"ok":""}
+{"fn":"safeErrorText","args":[true,42],"ok":"true"}
+{"fn":"safeErrorText","args":[{},-1],"ok":"[object Object"}
+{"fn":"safeErrorText","args":[["a",1],{"$num":"Infinity"}],"ok":"a,1"}
+{"fn":"safeErrorText","args":[{"a":"b"},0.5],"ok":""}
+{"fn":"safeErrorText","args":[0,1000000],"ok":"0"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},9007199254740992],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[[],2147483648],"ok":""}
+{"fn":"safeErrorText","args":[{"a":"b"},2],"ok":"[o"}
+{"fn":"safeErrorText","args":[{"a":{"b":"c"}},10],"ok":"[object Ob"}
+{"fn":"safeErrorText","args":[{},{"$num":"Infinity"}],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[[],{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":["x",{"$num":"-0"}],"ok":""}
+{"fn":"safeErrorText","args":["x",0.5],"ok":""}
+{"fn":"safeErrorText","args":["x",{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":[null,{"$num":"NaN"}],"ok":""}
+{"fn":"safeErrorText","args":["x",42],"ok":"x"}
+{"fn":"safeErrorText","args":[0,0],"ok":""}
+{"fn":"safeErrorText","args":[{},0.5],"ok":""}
+{"fn":"safeErrorText","args":[true,2],"ok":"tr"}
+{"fn":"safeErrorText","args":[null,10],"ok":"操作失败"}
+{"fn":"safeErrorText","args":[["a",1],-1],"ok":"a,"}
+{"fn":"safeErrorText","args":[0,-2.5],"ok":""}
+{"fn":"safeErrorText","args":[["a",1],2],"ok":"a,"}
+{"fn":"safeErrorText","args":["x",-2.5],"ok":""}
+{"fn":"safeErrorText","args":[{"2":4,"10":3,"zebra":1,"apple":2,"é":5,"Apple":6},9007199254740992],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[{"n":9007199254740992,"f":1e+21,"t":0.1,"neg":-7},9007199254740992],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[[3,1,2],9007199254740992],"ok":"3,1,2"}
+{"fn":"safeErrorText","args":[{},-7.5],"ok":"[object "}
+{"fn":"safeErrorText","args":[{},0.1],"ok":""}
+{"fn":"safeErrorText","args":[{},0.30000000000000004],"ok":""}
+{"fn":"safeErrorText","args":[{},1e+21],"ok":"[object Object]"}
+{"fn":"safeErrorText","args":[{},1e-7],"ok":""}
+{"fn":"safeErrorText","args":[{},5e-324],"ok":""}
+{"fn":"safeErrorText","args":[{},1.7976931348623157e+308],"ok":"[object Object]"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1000000,null],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[0,42,true],"ok":0}
+{"fn":"sanitizeIpcValue","args":[[],10,[]],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[[],1,[]],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[0,2147483648,[]],"ok":0}
+{"fn":"sanitizeIpcValue","args":[[],0,{"$undefined":true}],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[["a",1],-2.5,{"a":"b"}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":["x",9007199254740992,["a",1]],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},10,null],"ok":{"a":{"b":"c"}}}
+{"fn":"sanitizeIpcValue","args":[["a",1],42,{"a":{"b":"c"}}],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},-2.5,"x"],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[true,1,[]],"ok":true}
+{"fn":"sanitizeIpcValue","args":[["a",1],{"$num":"NaN"},0],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$num":"NaN"},0],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[0,42,["a",1]],"ok":0}
+{"fn":"sanitizeIpcValue","args":[[],-2.5,{"a":{"b":"c"}}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[["a",1],3,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[0,{"$num":"NaN"},true],"ok":0}
+{"fn":"sanitizeIpcValue","args":[{},{"$undefined":true},{"a":{"b":"c"}}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[true,{"$undefined":true},{}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$undefined":true},0],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[["a",1],{"$undefined":true},"x"],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[true,{"$num":"Infinity"},[]],"ok":true}
+{"fn":"sanitizeIpcValue","args":[null,{"$num":"Infinity"},{}],"ok":null}
+{"fn":"sanitizeIpcValue","args":[[],{"$num":"Infinity"},{"a":{"b":"c"}}],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[true],"ok":true}
+{"fn":"sanitizeIpcValue","args":[null,2],"ok":null}
+{"fn":"sanitizeIpcValue","args":[["a",1],100,[]],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[true,9007199254740992,{"a":{"b":"c"}}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[0,{"$undefined":true},null],"ok":0}
+{"fn":"sanitizeIpcValue","args":[0,{"$num":"NaN"}],"ok":0}
+{"fn":"sanitizeIpcValue","args":["x",3,{"a":{"b":"c"}}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[null,{"$undefined":true},{"a":{"b":"c"}}],"ok":null}
+{"fn":"sanitizeIpcValue","args":[["a",1],42,null],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},0,[]],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[[],3,{}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1,true],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[[],10,{"a":"b"}],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[[],{"$num":"-0"},null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[["a",1],-2.5,{"a":{"b":"c"}}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},1,{"a":"b"}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":["x",100,{"$undefined":true}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[{},3,true],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{},9007199254740992,["a",1]],"ok":{}}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$undefined":true},{"a":{"b":"c"}}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[null,1,"x"],"ok":null}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},42,["a",1]],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[["a",1],{"$undefined":true}],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$undefined":true},{"$undefined":true}],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":["x",{"$undefined":true},{}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$num":"Infinity"}],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$num":"-Infinity"}],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[{},{"$num":"-Infinity"},["a",1]],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[true,3,["a",1]],"ok":true}
+{"fn":"sanitizeIpcValue","args":[["a",1],{"$undefined":true},0],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[null,0,[]],"ok":null}
+{"fn":"sanitizeIpcValue","args":[true,{"$num":"NaN"},{"a":"b"}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[[],{"$undefined":true},"x"],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[true,{"$undefined":true},[]],"ok":true}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},{"$num":"-0"}],"ok":{"a":{"b":"c"}}}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[null,2,{"$undefined":true}],"ok":null}
+{"fn":"sanitizeIpcValue","args":[0,1000000],"ok":0}
+{"fn":"sanitizeIpcValue","args":["x",42,{"a":"b"}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":["x",{"$undefined":true},null],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[true,-2.5,{}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[["a",1],1000000,{}],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[null,3,"x"],"ok":null}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},1,0],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$num":"Infinity"},[]],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[true,-1],"ok":true}
+{"fn":"sanitizeIpcValue","args":[true,{"$num":"-0"},{"a":"b"}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[["a",1],-1,{"$undefined":true}],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":["x",1,{}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[true,100,{}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[{},0.5,"x"],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[true,0,{}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[0,2,true],"ok":0}
+{"fn":"sanitizeIpcValue","args":[[],0.5,true],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":["x",{"$num":"-0"}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[true,{"$num":"NaN"},0],"ok":true}
+{"fn":"sanitizeIpcValue","args":[null,42,{"$undefined":true}],"ok":null}
+{"fn":"sanitizeIpcValue","args":[null,{"$undefined":true},"x"],"ok":null}
+{"fn":"sanitizeIpcValue","args":[0,2,[]],"ok":0}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},1,{}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},2,{}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},3,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[{},9007199254740992,true],"ok":{}}
+{"fn":"sanitizeIpcValue","args":[["a",1],{"$num":"-Infinity"},"x"],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[true,10],"ok":true}
+{"fn":"sanitizeIpcValue","args":["x",{"$undefined":true},{"$undefined":true}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[[],1000000,{"a":{"b":"c"}}],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[null,42,[]],"ok":null}
+{"fn":"sanitizeIpcValue","args":[[],1000000,{"$undefined":true}],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[true,{"$undefined":true},{"$undefined":true}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[0,{"$undefined":true},{}],"ok":0}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},{"$undefined":true},true],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},1000000,true],"ok":{"a":{"b":"c"}}}
+{"fn":"sanitizeIpcValue","args":[{},-2.5,["a",1]],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[[],{"$num":"Infinity"},null],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[null,0.5,{"a":{"b":"c"}}],"ok":null}
+{"fn":"sanitizeIpcValue","args":[{},{"$undefined":true},null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},9007199254740992,null],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},9007199254740992,{"$undefined":true}],"ok":{"a":{"b":"c"}}}
+{"fn":"sanitizeIpcValue","args":[0,{"$num":"-Infinity"},null],"ok":0}
+{"fn":"sanitizeIpcValue","args":[null,3,{}],"ok":null}
+{"fn":"sanitizeIpcValue","args":[[],{"$num":"Infinity"},0],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1000,{"$undefined":true}],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":["x",{"$num":"NaN"},{"a":{"b":"c"}}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[0,0.5],"ok":0}
+{"fn":"sanitizeIpcValue","args":[true,42,[]],"ok":true}
+{"fn":"sanitizeIpcValue","args":["x",2147483648,["a",1]],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[[],2147483648,{"$undefined":true}],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[0,1,["a",1]],"ok":0}
+{"fn":"sanitizeIpcValue","args":[["a",1],10,true],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[true,{"$undefined":true},0],"ok":true}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$undefined":true},true],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[true,{"$num":"Infinity"},true],"ok":true}
+{"fn":"sanitizeIpcValue","args":[null,{"$undefined":true},null],"ok":null}
+{"fn":"sanitizeIpcValue","args":[true,1000000],"ok":true}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},-2.5,{"a":{"b":"c"}}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[0,0.5,{}],"ok":0}
+{"fn":"sanitizeIpcValue","args":[["a",1],10,["a",1]],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[["a",1],2,["a",1]],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":["x",{"$undefined":true},["a",1]],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[true,0,["a",1]],"ok":true}
+{"fn":"sanitizeIpcValue","args":[0,2,{"$undefined":true}],"ok":0}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$undefined":true},{}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[["a",1],9007199254740992,["a",1]],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[0,{"$num":"-Infinity"},{}],"ok":0}
+{"fn":"sanitizeIpcValue","args":["x",-1,["a",1]],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[0,0,{}],"ok":0}
+{"fn":"sanitizeIpcValue","args":["x",{"$num":"-Infinity"},["a",1]],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},0,true],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[[],{"$undefined":true},{"$undefined":true}],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[[],-2.5,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":["x",42,{}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},0,{"a":{"b":"c"}}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":["x",1,"x"],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1000000,"x"],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[0,{"$num":"-0"},{"a":{"b":"c"}}],"ok":0}
+{"fn":"sanitizeIpcValue","args":[null,{"$undefined":true}],"ok":null}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},{"$undefined":true},null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[["a",1],2,0],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[0,10,[]],"ok":0}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},9007199254740992,"x"],"ok":{"a":{"b":"c"}}}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$undefined":true},["a",1]],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},100,["a",1]],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":["x",0,0],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[true,42,true],"ok":true}
+{"fn":"sanitizeIpcValue","args":[[],{"$num":"-Infinity"},"x"],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{},{"$undefined":true},{}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{},100,[]],"ok":{}}
+{"fn":"sanitizeIpcValue","args":[[],-2.5,{}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},9007199254740992,0],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1000000,{"a":{"b":"c"}}],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[null,-1,[]],"ok":null}
+{"fn":"sanitizeIpcValue","args":[null,100,{"$undefined":true}],"ok":null}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},{"$num":"-Infinity"},{"a":{"b":"c"}}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":["x",0.5,{"a":{"b":"c"}}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":["x",10],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[{},{"$undefined":true},0],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},9007199254740992,null],"ok":{"a":{"b":"c"}}}
+{"fn":"sanitizeIpcValue","args":["x",{"$undefined":true},{"a":{"b":"c"}}],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1000000,true],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},1000000,["a",1]],"ok":{"a":{"b":"c"}}}
+{"fn":"sanitizeIpcValue","args":[{"a":{"b":"c"}},-2.5,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[null,-1,0],"ok":null}
+{"fn":"sanitizeIpcValue","args":[0,9007199254740992,0],"ok":0}
+{"fn":"sanitizeIpcValue","args":[true,100,true],"ok":true}
+{"fn":"sanitizeIpcValue","args":[null,{"$num":"-Infinity"},0],"ok":null}
+{"fn":"sanitizeIpcValue","args":[{},{"$num":"Infinity"},[]],"ok":{}}
+{"fn":"sanitizeIpcValue","args":[[],42],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[{},1,{"$undefined":true}],"ok":{}}
+{"fn":"sanitizeIpcValue","args":[0,{"$num":"Infinity"},{"$undefined":true}],"ok":0}
+{"fn":"sanitizeIpcValue","args":[null,{"$num":"Infinity"},[]],"ok":null}
+{"fn":"sanitizeIpcValue","args":[true,3,"x"],"ok":true}
+{"fn":"sanitizeIpcValue","args":[0,0.5,0],"ok":0}
+{"fn":"sanitizeIpcValue","args":["x",0.5,[]],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[["a",1],{"$undefined":true},null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[true,3,{"a":{"b":"c"}}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[{},1000000,null],"ok":{}}
+{"fn":"sanitizeIpcValue","args":[true,3,{"$undefined":true}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[["a",1],{"$undefined":true},{"a":"b"}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[["a",1],9007199254740992,{"$undefined":true}],"ok":["a",1]}
+{"fn":"sanitizeIpcValue","args":[{},1000000],"ok":{}}
+{"fn":"sanitizeIpcValue","args":[{},42,[]],"ok":{}}
+{"fn":"sanitizeIpcValue","args":[true,3,true],"ok":true}
+{"fn":"sanitizeIpcValue","args":[null,0,null],"ok":null}
+{"fn":"sanitizeIpcValue","args":[[],{"$num":"NaN"},true],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},100,{"$undefined":true}],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$num":"Infinity"},{"a":{"b":"c"}}],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[null,1000000,{"$undefined":true}],"ok":null}
+{"fn":"sanitizeIpcValue","args":["x",{"$undefined":true},true],"ok":"x"}
+{"fn":"sanitizeIpcValue","args":[true,0.5,{}],"ok":true}
+{"fn":"sanitizeIpcValue","args":[[],-1,{}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[0,0.5,null],"ok":0}
+{"fn":"sanitizeIpcValue","args":[null,{"$num":"Infinity"},null],"ok":null}
+{"fn":"sanitizeIpcValue","args":[[],10,true],"ok":[]}
+{"fn":"sanitizeIpcValue","args":[["a",1],{"$undefined":true},{}],"error":"seen.has is not a function"}
+{"fn":"sanitizeIpcValue","args":[{"2":4,"10":3,"zebra":1,"apple":2,"é":5,"Apple":6},1000000,null],"ok":{"2":4,"10":3,"zebra":1,"apple":2,"é":5,"Apple":6}}
+{"fn":"sanitizeIpcValue","args":[{"n":9007199254740992,"f":1e+21,"t":0.1,"neg":-7},1000000,null],"ok":{"n":9007199254740992,"f":1e+21,"t":0.1,"neg":-7}}
+{"fn":"sanitizeIpcValue","args":[[3,1,2],1000000,null],"ok":[3,1,2]}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$undefined":true},null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},-7.5,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},0.1,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},0.30000000000000004,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1e+21,null],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1e-7,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},5e-324,null],"error":"Cannot read properties of null (reading 'has')"}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},1.7976931348623157e+308,null],"ok":{"a":"b"}}
+{"fn":"sanitizeIpcValue","args":[{"a":"b"},{"$num":"-0"},null],"error":"Cannot read properties of null (reading 'has')"}

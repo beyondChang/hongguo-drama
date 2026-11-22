@@ -1,0 +1,30 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "D:\\system\\desktop\\ai\\hongguo-drama",
+  "unit": "src/native/child-env.js",
+  "language": "ts",
+  "kind": "napi",
+  "crate_name": "hongguo-child-env",
+  "exports": [
+    {
+      "name": "localMediaEnv",
+      "file": "src/native/child-env.js",
+      "line": 3,
+      "params": [
+        {
+          "name": "env",
+          "ts_type": "unknown",
+          "optional": true,
+          "rest": false
+        }
+      ],
+      "returns": "unknown",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}
